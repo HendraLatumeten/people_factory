@@ -10,13 +10,13 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="#welcome" class="active">Home</a></li>
+                            <li><a href="index.php" class="active">Home</a></li>
                             <li><a href="#features">About</a></li>
                             <li><a href="#work-process">Work Process</a></li>
                             <li><a href="#testimonials">Testimonials</a></li>
                             <li><a href="#pricing-plans">Pricing Tables</a></li>
                             <li><a href="#pricing-plans">Contact Us</a></li>
-                            <li><a href="#contact-us">Login</a></li>
+                            <li><a href="" data-toggle="modal" data-target="#exampleModal">Login</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -27,3 +27,42 @@
             </div>
         </div>
     </header>
+
+    <!-- Login -->
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<form method="post">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="margin-left: 180px;">Form Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="">
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="">
+  </div> 
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+</form>
+</div>
