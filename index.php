@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>Softy Pinko - Bootstrap 4.0 Theme</title>
+    <title>People Factory</title>
 <!--
 SOFTY PINKO
 https://templatemo.com/tm-535-softy-pinko
@@ -54,7 +54,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <h1>We provide the best <strong>strategy</strong><br>to grow up your <strong>business</strong></h1>
                         <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo 
                         for your company at absolutely free of charge</p>
-                        <a href="form_daftar.php" class="main-button-slider">Daftar</a>
+                        <a href="form_daftar.php" class="main-button-slider">Daftar Sekarang</a>
                     </div>
                 </div>
             </div>
