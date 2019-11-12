@@ -1,18 +1,11 @@
-<!--
 
-=========================================================
-* Argon Dashboard - v1.1.0
-=========================================================
+<?php
+session_start();
+//koneksi ke database
+include 'koneksi.php';
+?>
 
-* Product Page: https://www.creative-tim.com/product/argon-dashboard
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,11 +28,7 @@
 
 <body class="bg-default">
   <div class="main-content">
-    <!-- Navbar -->
-    <?php 
-       include ('users_layout/navbar') ;
-       ?>
-    <!-- Header -->
+   
     <div class="header bg-gradient-primary py-7 py-lg-8">
       <div class="container">
         <div class="header-body text-center mb-7">
@@ -79,13 +68,13 @@
               <div class="text-center text-muted mb-4">
                 <small>Or sign in with credentials</small>
               </div>
-              <form role="form">
+              <form method="post" role="form">
                 <div class="form-group mb-3">
                   <div class="input-group input-group-alternative">
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-email-83"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Email" type="email">
+                    <input class="form-control" name="email" placeholder="Email" type="email">
                   </div>
                 </div>
                 <div class="form-group">
@@ -93,7 +82,7 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
                     </div>
-                    <input class="form-control" placeholder="Password" type="password">
+                    <input class="form-control" name="password" placeholder="Password" type="password">
                   </div>
                 </div>
                 <div class="custom-control custom-control-alternative custom-checkbox">
@@ -103,9 +92,27 @@
                   </label>
                 </div>
                 <div class="text-center">
-                  <button type="button" class="btn btn-primary my-4">Sign in</button>
+                  <button name="login" class="btn btn-primary my-4">Sign in</button>
                 </div>
               </form>
+              <?php
+                        if(isset($_POST['login']))
+                        {
+                        	$ambil = $koneksi->query("SELECT * FROM pelamar WHERE email='$_POST[email]' AND password='$_POST[password]'");
+                            $yangcocok = $ambil->num_rows;
+                            if ($yangcocok==1) {
+                            $_SESSION['pelamar']=$ambil->fetch_assoc();
+                                echo "<br>";
+                            echo "<div class='alert alert-info'>Login Sukses</div>";
+                            echo "<meta http-equiv='refresh' content='1;url=index.php'>";
+                            }
+                            else {
+                                echo "<br>";
+                                echo "<div class='alert alert-danger'>Login Gagal</div>";
+                            }
+                        }
+
+                        ?>
             </div>
           </div>
           <div class="row mt-3">

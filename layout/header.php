@@ -48,21 +48,45 @@
         <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="">
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required="">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="">
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="">
   </div> 
 </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Login</button>
+        <button type="submit" name="submit" class="btn btn-primary">Login</button>
       </div>
     </div>
   </div>
 </div>
 </form>
 </div>
+
+<?php
+session_start();
+//koneksi ke database
+include 'koneksi.php';
+?>
+
+<?php
+                        if(isset($_POST['submit']))
+                        {
+                        	$ambil = $koneksi->query("SELECT * FROM pelamar WHERE email='$_POST[email]' AND password='$_POST[password]'");
+                            $yangcocok = $ambil->num_rows;
+                            if ($yangcocok==1) {
+                            $_SESSION['pelamar']=$ambil->fetch_assoc();
+                            echo "<script>alert('Login Sukses');</script>";
+
+                            echo "<script>location='./users/'</script>";
+                            }
+                            else {
+                              echo "<script>alert('Login Gagal, Pastikan Email dan Password Sudah Benar');</script>";
+                            }
+                        }
+
+                        ?>
