@@ -34,7 +34,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="profile.php">
+            <a class="nav-link" href="../index.php">
               <i class="ni ni-button-power text-blue"></i>Keluar
             </a>
           </li>
