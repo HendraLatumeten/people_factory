@@ -44,25 +44,27 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Welcome Area Start ***** -->
-    <div class="welcome-area" id="welcome">
+        <div class="welcome-area" id="welcome">
 
         <!-- ***** Header Text Start ***** -->
         <div class="header-text">
             <div class="container">
-                <div class="row">
-                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-                        <h1>We provide the best <strong>strategy</strong><br>to grow up your <strong>business</strong></h1>
-                        <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo 
-                        for your company at absolutely free of charge</p>
-                        <a href="form_daftar.php" class="main-button-slider">Daftar Sekarang</a>
+                    <div class="row">
+                            <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                                <h1>We provide the best <strong>strategy</strong><br>to grow up your <strong>business</strong></h1>
+                                <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo 
+                                for your company at absolutely free of charge</p>
+                                <a href="form_daftar.php" class="main-button-slider">Daftar Sekarang</a>
+                            </div>
+                        
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- ***** Header Text End ***** -->
+        </div>  <!-- ***** Header Text End ***** -->
     </div>
     <!-- ***** Welcome Area End ***** -->
-
+<br>
+<br>
     <!-- ***** Features Small Start ***** -->
     <section class="section home-feature">
         <div class="container">
