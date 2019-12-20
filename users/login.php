@@ -13,7 +13,7 @@ include 'koneksi.php';
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>
-    Argon Dashboard - Free Dashboard for Bootstrap 4 by Creative Tim
+    People Factory
   </title>
   <!-- Favicon -->
   <link href="../assets/img/brand/favicon.png" rel="icon" type="image/png">
@@ -92,7 +92,10 @@ include 'koneksi.php';
                   </label>
                 </div>
                 <div class="text-center">
-                  <button name="login" class="btn btn-primary my-4">Sign in</button>
+                  <tr>
+                    <td><a href="..//.index.php" class="btn btn-danger">Kembali</a></td>
+                    <td><button name="login" class="btn btn-primary my-4">Sign in</button></td>
+                  </tr>
                 </div>
               </form>
               <?php
@@ -126,29 +129,21 @@ include 'koneksi.php';
         </div>
       </div>
     </div>
-    <footer class="py-5">
+<footer class="footer">
+        <div class="row align-items-center">
+          <div class="col-xl-6">
+            <div class="copyright text-center text-center text-muted">
+              &copy; 2019 <a href="https://www.youtube.com/channel/UC4Y-U6y7R8JH_k4ew5F5ewA" class="font-weight-bold ml-1" target="_blank">Klinik Coding & SM-cyte</a>
+            </div>
+          </div>
+        </div>
+      </footer>    <footer class="py-5">
       <div class="container">
         <div class="row align-items-center justify-content-xl-between">
           <div class="col-xl-6">
             <div class="copyright text-center text-xl-left text-muted">
               © 2018 <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">Creative Tim</a>
             </div>
-          </div>
-          <div class="col-xl-6">
-            <ul class="nav nav-footer justify-content-center justify-content-xl-end">
-              <li class="nav-item">
-                <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
-              </li>
-              <li class="nav-item">
-                <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md" class="nav-link" target="_blank">MIT License</a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

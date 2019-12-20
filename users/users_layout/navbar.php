@@ -1,10 +1,8 @@
-
-
-
-<?php $ambil = $koneksi->query("SELECT * FROM pelamar "); ?>
+<?php $ambil = $koneksi->query("SELECT * FROM pelamar order by user_id"); ?>
     <?php while ($pecah = $ambil->fetch_assoc()) {
       ?>
- <ul class="navbar-nav">
+      <?php } ?>
+ <div class="navbar-nav">
           <!-- <li class="nav-item  class=" active" ">
           <a class=" nav-link active " href="home.php"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
             </a>
@@ -47,14 +45,11 @@
             </a>
           </li>
           <li class="nav-item">
-<<<<<<< HEAD
             <a class="nav-link" href="../index.php">
-=======
             <a class="nav-link" href="index.php?halaman=logout&id=<?php echo $pecah['user_id']; ?>">
->>>>>>> refs/remotes/origin/master
               <i class="ni ni-button-power text-blue"></i>Keluar
             </a>
           </li>
-        </ul>
+        </div>
    
-        <?php } ?>
+        

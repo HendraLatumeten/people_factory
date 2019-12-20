@@ -1,21 +1,44 @@
+<?php
+session_start();
+//koneksi ke database
+include 'koneksi.php';
+?>
+
+<?php
+                        if(isset($_POST['submit']))
+                        {
+                          $ambil = $koneksi->query("SELECT * FROM pelamar WHERE email='$_POST[email]' AND password='$_POST[password]'");
+                            $yangcocok = $ambil->num_rows;
+                            if ($yangcocok==1) {
+                            $_SESSION['pelamar']=$ambil->fetch_assoc();
+                            echo "<script>alert('Login Sukses');</script>";
+
+                            echo "<script>location='./users/'</script>";
+                            }
+                            else {
+                              echo "<script>alert('Login Gagal, Pastikan Email dan Password Sudah Benar');</script>";
+                            }
+                        }
+
+                        ?>
+
 <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
-                            <img src="assets/images/logo.png" alt="Softy Pinko"/>
+                        <a href="index.php" class="logo">
+                            <img src="assets/images/pf_logo.jpg" alt="Softy Pinko">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="index.php" class="active">Home</a></li>
-                            <li><a href="#features">About</a></li>
-                            <li><a href="#work-process">Work Process</a></li>
+                            <li><a href="#features">About Us</a></li>
+                            <li><a href="#companies">Companies</a></li>
                             <li><a href="#testimonials">Testimonials</a></li>
-                            <li><a href="#pricing-plans">Pricing Tables</a></li>
-                            <li><a href="#pricing-plans">Contact Us</a></li>
+                            <li><a href="#contact-us">Contact Us</a></li>
                             <li><a href="" data-toggle="modal" data-target="#exampleModal">Login</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -59,12 +82,12 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-<<<<<<< HEAD
+
        <!--  <button type="submit" class="btn btn-primary">Login</button> -->
-        <a href="users/home.php" class="btn btn-primary">Login</a>
-=======
+        <!-- <a href="users/home.php" class="btn btn-primary">Login</a> -->
+
         <button type="submit" name="submit" class="btn btn-primary">Login</button>
->>>>>>> refs/remotes/origin/master
+
       </div>
     </div>
   </div>
@@ -72,26 +95,3 @@
 </form>
 </div>
 
-<?php
-session_start();
-//koneksi ke database
-include 'koneksi.php';
-?>
-
-<?php
-                        if(isset($_POST['submit']))
-                        {
-                        	$ambil = $koneksi->query("SELECT * FROM pelamar WHERE email='$_POST[email]' AND password='$_POST[password]'");
-                            $yangcocok = $ambil->num_rows;
-                            if ($yangcocok==1) {
-                            $_SESSION['pelamar']=$ambil->fetch_assoc();
-                            echo "<script>alert('Login Sukses');</script>";
-
-                            echo "<script>location='./users/'</script>";
-                            }
-                            else {
-                              echo "<script>alert('Login Gagal, Pastikan Email dan Password Sudah Benar');</script>";
-                            }
-                        }
-
-                        ?>

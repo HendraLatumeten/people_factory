@@ -86,32 +86,32 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Pricing Plans End ***** -->
 
     <!-- ***** Counter Parallax Start ***** -->
-    <section class="counter">
+    <section class="counter" align="center">
         <div class="content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-bottom">
-                            <strong>126</strong>
-                            <span>Projects</span>
+                        <div class="count-item decoration-top">
+                            <strong>100000</strong>
+                            <span>Pengguna</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="count-item decoration-top">
-                            <strong>63</strong>
-                            <span>Happy Clients</span>
+                            <strong>1000</strong>
+                            <span>Cabang Perusahaan</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-bottom">
-                            <strong>18</strong>
-                            <span>Awards Wins</span>
+                        <div class="count-item decoration-top">
+                            <strong>1000</strong>
+                            <span>Lowongan Tersedia</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="count-item">
-                            <strong>27</strong>
-                            <span>Countries</span>
+                            <strong>100</strong>
+                            <span>Kota dan Kabupaten</span>
                         </div>
                     </div>
                 </div>
@@ -201,9 +201,11 @@ https://templatemo.com/tm-535-softy-pinko
                         </div>
                     </div>
 
+                    <tr>
+                        <td><a href="index.php" class="btn btn-danger">Kembali</a></td>
+                        <td><button type="submit" name="submit" class="btn btn-primary">Submit</button></td>
+                    </tr>
 
-                        
-                              <button type="submit" name="submit" class="btn btn-primary">Submit</button>
                         </form>
                         </div>
                     </div>

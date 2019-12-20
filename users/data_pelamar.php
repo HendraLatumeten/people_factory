@@ -1,8 +1,6 @@
 <?php
-
-$ambil=$koneksi->query ("SELECT * FROM pelamar WHERE user_id='$_GET[id]'");
+$ambil=$koneksi->query ("SELECT * FROM pelamar where user_id");
 $pecah=$ambil->fetch_assoc();
-
 ?>
 
 

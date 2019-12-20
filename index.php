@@ -51,9 +51,8 @@ https://templatemo.com/tm-535-softy-pinko
             <div class="container">
                     <div class="row">
                             <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-                                <h1>We provide the best <strong>strategy</strong><br>to grow up your <strong>business</strong></h1>
-                                <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo 
-                                for your company at absolutely free of charge</p>
+                                <h5>Lihat <strong>Potensi</strong> diri anda <br>dan dapatkan <strong>Pekerjaan</strong> terbaik sesuai skill anda.</h5>
+                                <p><strong>Tunggu apa lagi...?</strong> Kami punya banyak lowongan kerja dari berbagai Perusahaan untuk anda.</p>
                                 <a href="form_daftar.php" class="main-button-slider">Daftar Sekarang</a>
                             </div>
                         
@@ -66,12 +65,12 @@ https://templatemo.com/tm-535-softy-pinko
 <br>
 <br>
     <!-- ***** Features Small Start ***** -->
-    <section class="section home-feature">
+    <!-- <section class="section home-feature">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
-                        <!-- ***** Features Small Item Start ***** -->
+                        
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                             <div class="features-small-item">
                                 <div class="icon">
@@ -81,9 +80,9 @@ https://templatemo.com/tm-535-softy-pinko
                                 <p>Customize anything in this template to fit your website needs</p>
                             </div>
                         </div>
-                        <!-- ***** Features Small Item End ***** -->
+                        
 
-                        <!-- ***** Features Small Item Start ***** -->
+                        
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                             <div class="features-small-item">
                                 <div class="icon">
@@ -93,9 +92,9 @@ https://templatemo.com/tm-535-softy-pinko
                                 <p>Contact us immediately if you have a question in mind</p>
                             </div>
                         </div>
-                        <!-- ***** Features Small Item End ***** -->
+                        
 
-                        <!-- ***** Features Small Item Start ***** -->
+                        
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                             <div class="features-small-item">
                                 <div class="icon">
@@ -105,12 +104,12 @@ https://templatemo.com/tm-535-softy-pinko
                                 <p>You just need to tell your friends about our free templates</p>
                             </div>
                         </div>
-                        <!-- ***** Features Small Item End ***** -->
+                        
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ***** Features Small End ***** -->
 
     <!-- ***** Features Big Item Start ***** -->
@@ -123,10 +122,10 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
                     <div class="left-heading">
-                        <h2 class="section-title">Let’s discuss about you project</h2>
+                        <h2 class="section-title">Tentang Kami</h2>
                     </div>
                     <div class="left-text">
-                        <p>Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.</p>
+                        <p>People Factory merupakan sistem yang mempertemukan antara anda yang mencari pekerjaan dengan perusahaan penyedia lapangan kerja sesuai lokasi tempat tinggal anda secara langsung tanpa harus melalui outsourcing atau event lowongan kerja.</p>
                     </div>
                 </div>
             </div>
@@ -140,12 +139,12 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Features Big Item End ***** -->
 
     <!-- ***** Features Big Item Start ***** -->
-    <section class="section padding-bottom-100">
+    <!-- <section class="section padding-bottom-100">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
                     <div class="left-heading">
-                        <h2 class="section-title">We can help you to grow your business</h2>
+                        <h2 class="section-title">Kami dapat membantu anda</h2>
                     </div>
                     <div class="left-text">
                         <p>Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi, a bibendum lectus libero vitae urna. Sed id leo eu dolor luctus congue sed eget ipsum. Nunc nec luctus libero. Etiam quis dolor elit.</p>
@@ -157,18 +156,19 @@ https://templatemo.com/tm-535-softy-pinko
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ***** Features Big Item End ***** -->
 
     <!-- ***** Home Parallax Start ***** -->
-    <section class="mini" id="work-process">
+    <section class="mini" id="companies">
         <div class="mini-content">
             <div class="container">
                 <div class="row">
                     <div class="offset-lg-3 col-lg-6">
                         <div class="info">
-                            <h1>Work Process</h1>
-                            <p>Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex. Donec ante diam.</p>
+                            <h1>Perusahaan Penyedia Lowongan Kerja</h1>
+                             <p>Berikut adalah daftar perusahaan yang membutuhkan tenaga kerja seperti anda, jadi tunggu apa lagi...?</p>
+                             <a href="form_daftar.php" class="main-button-slider">Buruan Daftar</a> 
                         </div>
                     </div>
                 </div>
@@ -178,42 +178,42 @@ https://templatemo.com/tm-535-softy-pinko
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
                             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Get Ideas</strong>
+                            <strong>Perusahaan A</strong>
                             <span>Godard pabst prism fam cliche.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
                             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Sketch Up</strong>
+                            <strong>Perusahaan B</strong>
                             <span>Godard pabst prism fam cliche.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
                             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Discuss</strong>
+                            <strong>Perusahaan C</strong>
                             <span>Godard pabst prism fam cliche.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
                             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Revise</strong>
+                            <strong>Perusahaan D</strong>
                             <span>Godard pabst prism fam cliche.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
                             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Approve</strong>
+                            <strong>Perusahaan E</strong>
                             <span>Godard pabst prism fam cliche.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
                             <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Launch</strong>
+                            <strong>Perusahaan F</strong>
                             <span>Godard pabst prism fam cliche.</span>
                         </a>
                     </div>
@@ -231,12 +231,13 @@ https://templatemo.com/tm-535-softy-pinko
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
-                        <h2 class="section-title">What do they say?</h2>
+                        <h2 class="section-title">Apa yang Mereka katakan?</h2>
                     </div>
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="center-text">
-                        <p>Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero.</p>
+                        <p>Lihat Keberhasilan mereka setelah menggunakan sistem ini, jangan tunggu lama.</p>
+                        <a href="form_daftar.php" class="main-button-slider">Segera Daftarkan Diri Anda</a>
                     </div>
                 </div>
             </div>
@@ -302,9 +303,9 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Testimonials End ***** -->
 
     <!-- ***** Pricing Plans Start ***** -->
-    <section class="section colored" id="pricing-plans">
+    <!-- <section class="section colored" id="pricing-plans">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
+            
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
@@ -317,10 +318,10 @@ https://templatemo.com/tm-535-softy-pinko
                     </div>
                 </div>
             </div>
-            <!-- ***** Section Title End ***** -->
+            
 
             <div class="row">
-                <!-- ***** Pricing Item Start ***** -->
+               
                 <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                     <div class="pricing-item">
                         <div class="pricing-header">
@@ -346,9 +347,9 @@ https://templatemo.com/tm-535-softy-pinko
                         </div>
                     </div>
                 </div>
-                <!-- ***** Pricing Item End ***** -->
+                
 
-                <!-- ***** Pricing Item Start ***** -->
+                
                 <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                     <div class="pricing-item active">
                         <div class="pricing-header">
@@ -374,9 +375,9 @@ https://templatemo.com/tm-535-softy-pinko
                         </div>
                     </div>
                 </div>
-                <!-- ***** Pricing Item End ***** -->
+               
 
-                <!-- ***** Pricing Item Start ***** -->
+                
                 <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                     <div class="pricing-item">
                         <div class="pricing-header">
@@ -402,39 +403,39 @@ https://templatemo.com/tm-535-softy-pinko
                         </div>
                     </div>
                 </div>
-                <!-- ***** Pricing Item End ***** -->
+                
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ***** Pricing Plans End ***** -->
 
     <!-- ***** Counter Parallax Start ***** -->
-    <section class="counter">
+    <section class="counter" align="center">
         <div class="content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-bottom">
-                            <strong>126</strong>
-                            <span>Projects</span>
+                        <div class="count-item decoration-top">
+                            <strong>100000</strong>
+                            <span>Pengguna</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="count-item decoration-top">
-                            <strong>63</strong>
-                            <span>Happy Clients</span>
+                            <strong>1000</strong>
+                            <span>Cabang Perusahaan</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-bottom">
-                            <strong>18</strong>
-                            <span>Awards Wins</span>
+                        <div class="count-item decoration-top">
+                            <strong>1000</strong>
+                            <span>Lowongan Tersedia</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="count-item">
-                            <strong>27</strong>
-                            <span>Countries</span>
+                            <strong>100</strong>
+                            <span>Kota dan Kabupaten</span>
                         </div>
                     </div>
                 </div>
@@ -444,9 +445,9 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Counter Parallax End ***** -->   
 
     <!-- ***** Blog Start ***** -->
-    <section class="section" id="blog">
+    <!-- <section class="section" id="blog">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
+            
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
@@ -459,7 +460,7 @@ https://templatemo.com/tm-535-softy-pinko
                     </div>
                 </div>
             </div>
-            <!-- ***** Section Title End ***** -->
+            
 
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -512,7 +513,7 @@ https://templatemo.com/tm-535-softy-pinko
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ***** Blog End ***** -->
 
     <!-- ***** Contact Us Start ***** -->
@@ -522,12 +523,12 @@ https://templatemo.com/tm-535-softy-pinko
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
-                        <h2 class="section-title">Talk To Us</h2>
+                        <h2 class="section-title">Hubungi Kami</h2>
                     </div>
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="center-text">
-                        <p>Maecenas pellentesque ante faucibus lectus vulputate sollicitudin. Cras feugiat hendrerit semper.</p>
+                        <p>Kami siap membantu membantu anda.</p>
                     </div>
                 </div>
             </div>
@@ -536,11 +537,11 @@ https://templatemo.com/tm-535-softy-pinko
             <div class="row">
                 <!-- ***** Contact Text Start ***** -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <h5 class="margin-bottom-30">Keep in touch</h5>
+                    <h5 class="margin-bottom-30">Alamat Kami:</h5>
                     <div class="contact-text">
-                        <p>110-220 Quisque diam odio, maximus ac consectetur eu, 10260
-                        <br>auctor non lorem</p>
-                        <p>You are NOT allowed to re-distribute Softy Pinko template on any template collection websites. Thank you.</p>
+                        <p>Gedung Menara Mulia Lt.10 Room.095
+                        <br>Jl. Jend. Gatot Subroto, Semanggi, 12930, DKI Jakarta.</p>
+                        <p>Telpon: 021-12345XXX.</p>
                     </div>
                 </div>
                 <!-- ***** Contact Text End ***** -->
